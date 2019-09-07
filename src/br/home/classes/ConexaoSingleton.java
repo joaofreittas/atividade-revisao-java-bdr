@@ -16,7 +16,7 @@ public class ConexaoSingleton {
 		
 		String USUARIO = "root";
 		String SENHA = "";
-		String URL = "jdbc:mysql://localhost:3306/crudFuncionario?serverTimezone=UTC";
+		String URL = "jdbc:mysql://localhost:3306/crud_pessoa?serverTimezone=UTC";
 		String DRIVER = "com.mysql.jdbc.Driver";
 		try {
 			Class.forName(DRIVER);

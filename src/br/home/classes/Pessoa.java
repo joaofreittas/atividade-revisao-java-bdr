@@ -8,8 +8,7 @@ public class Pessoa {
 	public Pessoa() {
 		
 	}
-	public Pessoa(int id, String nome, int idade ) {
-		this.id = id;
+	public Pessoa(String nome, int idade ) {
 		this.nome = nome;
 		this.idade = idade;
 	}
@@ -31,5 +30,10 @@ public class Pessoa {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
+	@Override
+	public String toString() {
+		return "Pessoa [id=" + id + ", nome=" + nome + ", idade=" + idade + "]";
+	}
+	
 	
 }
